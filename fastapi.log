@@ -1,2 +1,14 @@
 INFO:     Will watch for changes in these directories: ['/content/drive/MyDrive/lr1']
-ERROR:    [Errno 98] Address already in use
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [1659] using StatReload
+INFO:     Started server process [1665]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     46.138.53.74:0 - "GET / HTTP/1.1" 404 Not Found
+INFO:     46.138.53.74:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     46.138.53.74:0 - "GET /docs HTTP/1.1" 200 OK
+INFO:     46.138.53.74:0 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     46.138.53.74:0 - "GET /docs HTTP/1.1" 200 OK
+INFO:     46.138.53.74:0 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     46.138.53.74:0 - "POST /predict/ HTTP/1.1" 200 OK
+INFO:     46.138.53.74:0 - "GET /predict/ HTTP/1.1" 405 Method Not Allowed
